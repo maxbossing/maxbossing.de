@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/stylesheet.css">
+    <title>1 - How I made my Website</title>
+</head>
+<body>
+
+    <div class="topnav">
+        <a href="/index.html">Home</a>
+        <a href="/blog/index.html">Articles</a>
+    </div>
+
+    <header>
+        <h1>How I made my Website</h1>
+        <aside><p>And what you should consider while creating your</p></aside>
+    </header>
+
+
+    <div id="preamble">
+    <h2>Preamble</h2>
+    <p>
+        I made my fair share of websites in the past, but all of them were not that great, so the project of my own website sat in the corner of my idea list up until now.<br>
+        But after 1 year since I initially thought of creating/updating my own website I finally sat down and started.
+    </p>
+    </div>
+
+    <div id="design">
+        <h2>The Design</h2>
+        <p>
+            I tinkered with the design of my website a long time until finally settling with what you are seeing right now. I've taken a lot of inspiration from <a href="https://tinyprojects.dev">tinyprojects</a>,<a href="http://bettermotherfuckingwebsite.com/">Better Motherfucking Website</a> and <br>
+            <a href="https://evenbettermotherfucking.website/">Even Better Motherfucking Website</a>, because I absolutely love this minimalistic approach to the web. Websites are becoming too clunky, too bloated. I use Arch, I know what bloated means.<br>
+            So finally I settled with these 29 lines of CSS to make this badboy go brrr:
+        </p>
+        <pre class="snippet">
+
+  body {
+    margin: 5%;
+    line-height: 1.8;
+    background: #f2f2f2;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    text-shadow: 0 1px 0 #ffffff;
+    max-width: 73%;
+    color: #454545;
+
+  }
+  code {
+    background: white;
+  }
+  a {
+    border-bottom: 1px solid #444444;
+    color: #444444;
+    text-decoration: none;
+  }
+  a:hover {border-bottom: 0;}
+  h1,h2,h3 {line-height: 1.6;}
+
+  .snippet{
+    background: #454545;
+    color: #f2f2f2;
+    font-family: monospace;
+    text-shadow: 0 0 #454545;
+    border-radius: 15px;
+  }
+  .topnav {font-size: 25px; text-decoration: none}
+        </pre>
+
+        <p>
+            This website is probably not the best looking website of all time, but I think it looks great and it fits my needs just perfectly.
+        </p>
+    </div>
+
+    <div id="domain">
+        <h2>The Domain</h2>
+        <p>
+            A lot of people have big problems figuring out what domain to use for their projects. I, on the other hand, went the pragmatic way and just used my name lol. CIA come and get me.<br>
+            Why .de though? The answer is fairly simple: <code>7€</code>.
+        </p>
+    </div>
+
+    <div id="hosting">
+        <h2>The Hoster</h2>
+        <p>
+            These days it's easy to host a website on the internet. You can use Firebase static hosting to put up your site (I actually use Firebase for a lot of projects myself), setup your <br>
+            own Webserver using Apache or nginx and maintain everything by yourself or use other services like Github/Cloudflare pages. I went with Github Pages as It was the easiest and fastest to setup and <br>
+            Its trivial to add Support for Markdown if I want to use it to write articles later.
+        </p>
+    </div>
+
+
+    <div id="conclusion">
+        <h2>Conclusion</h2>
+        <p>
+            If I look back at the journey of creating this website, I don't quite understand why I shied away from it for so long.<br>
+            It was a lot of fun doing this, and as always I enjoyed it to learn something new. <br>
+            Stay tuned, something's gonna happen soon. <br>
+            <br>
+            Max
+        </p>
+    </div>
+</body>
+</html>
